@@ -1,0 +1,147 @@
+*{
+    padding:0;
+    margin:0;
+    text-decoration: none;
+    list-style: none;
+    
+}
+body{
+    font-family: monstserrat;
+}
+nav{
+    background-color:navy;
+    height: 80px;
+    color: white;
+    font-size: 35px;
+    line-height: 0 100px;
+    font-weight: bold;
+
+}
+label.logo{
+    line-height: 120px;
+    padding: 20px;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 5px;
+}
+nav ul li a{
+    color: white;
+    font-size: 50%;
+    text-transform: uppercase;
+    padding: 7px 13px;
+    border-radius: 3px;
+}
+button{
+    display: none;
+}
+@media (max-width:912px){
+    label.logo{
+        font-size: 30px;
+        padding-left: 50px;
+    }
+    nav ul li a{
+        font-size: 16px;
+    }
+    .pics{
+        width: 100%;
+    }
+}
+    
+@media screen and  (max-width:600px){
+    label.logo{
+        padding-left: 40px;
+        width: 100%;
+    }
+    button{
+        display: block;
+        margin-left: -20%;    
+    }
+.image{
+    width: 14%;
+    margin-top: 1%;
+}
+
+    
+.dropbtn {
+    color: navy;
+    font-size: 100%;
+    margin-top: 40%;
+    line-height: 2px;
+  }
+  
+ 
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position:absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    border-radius: 2%;
+    margin-left: -390%;
+  }
+  
+  .dropdown-content a {
+    color: navy;
+    padding: 12px 16px;
+    text-decoration:solid;
+    display: block;
+    
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display:block;}
+  
+  .dropdown:hover .dropbtn {background-color: wheat;}
+
+/*h1 */
+h1{
+    font-size:2px;
+}
+.past{
+    margin-top:1;
+}
+}
+
+
+
+
+@media screen and  (max-width:500px){
+    
+
+
+}
+
+
+
+
+/*the large first image */ 
+.h1{
+    background-color: black;
+    padding-bottom: 50%;
+    background-repeat: no-repeat;
+}
+    h1{
+        color:blue;
+        text-align: center; 
+        font-size:38%;
+    }
+    .past{
+padding: 20px;
+margin-top: 280px;
+color: black;
+text-align: center;
+font-size:50px;
+    }
