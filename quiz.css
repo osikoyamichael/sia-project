@@ -1,0 +1,20 @@
+body{
+    background-color: navy;
+    color:white;
+    font-size:2vw; 
+    margin-left: 2rem;
+    font-family: algerian;
+    text-align:start;
+}
+@media screen and  (max-width:600px){
+    body{font-size:4vw;
+}}
+#button{
+    background-color:red;
+    color:azure;
+    font-size:3vw;
+    padding:10px;
+    border-radius: 10px;
+    border-style: groove white;
+}
+  
